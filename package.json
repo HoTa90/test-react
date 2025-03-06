@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://HoTa90.github.io/test-react",
+ "homepage": "https://hota90.github.io/test-react",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

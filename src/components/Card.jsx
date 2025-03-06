@@ -11,8 +11,9 @@ export default function Card({ card, handleChoice, flipped, disabled }) {
    return (
       <div className={`card ${flipped ? 'flipped' : ''}`}>
          <div>
-            <img className='front' alt='card-front' src={card.src} />
-            <img onClick={handleClick} className='back' alt='card-back' src='./img/Cover.jpg' />
+            <img className='front' alt='card-front' src={process.env.PUBLIC_URL + card.src} />
+            <img onClick={handleClick} className='back' alt='card-back' src={process.env.PUBLIC_URL + '/img/Cover.jpg'} />
+
          </div>
       </div>
    );
