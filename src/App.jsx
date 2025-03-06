@@ -3,12 +3,12 @@ import './App.css'
 import Card from './components/Card.jsx';
 
 const cardImages = [
-	{ 'src': './img/Bash-1.jpg', matched: false },
-	{ 'src': './img/Bash-2.jpg', matched: false },
-	{ 'src': './img/Bash-3.jpg', matched: false },
-	{ 'src': './img/Bash-4.jpg', matched: false },
-	{ 'src': './img/Bash-5.jpg', matched: false },
-	{ 'src': './img/Bash-6.jpg', matched: false },
+	{ 'src': '/img/Bash-1.jpg', matched: false },
+	{ 'src': '/img/Bash-2.jpg', matched: false },
+	{ 'src': '/img/Bash-3.jpg', matched: false },
+	{ 'src': '/img/Bash-4.jpg', matched: false },
+	{ 'src': '/img/Bash-5.jpg', matched: false },
+	{ 'src': '/img/Bash-6.jpg', matched: false },
 ]
 
 
@@ -22,25 +22,25 @@ function App() {
 	const [isShuffling, setIsShuffling] = useState(false);
 
 
-	
+
 
 
 
 	const shuffleCards = () => {
 		setIsShuffling(true);
 		const shuffled = [...cardImages, ...cardImages]
-		  .sort(() => Math.random() - 0.5)
-		  .map((card) => ({ ...card, id: Math.random() }));
-	
+			.sort(() => Math.random() - 0.5)
+			.map((card) => ({ ...card, id: Math.random() }));
+
 		// Reset and update state
 		setChoiceOne(null);
 		setChoiceTwo(null);
 		setCards(shuffled);
 		setTurns(0);
-		
+
 		// Remove shuffling state after animation
 		setTimeout(() => setIsShuffling(false), 500);
-	  };
+	};
 
 
 	const handleChoice = (card) => {
