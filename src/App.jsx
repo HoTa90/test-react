@@ -3,12 +3,12 @@ import './App.css'
 import Card from './components/Card.jsx';
 
 const cardImages = [
-	{ 'src': '/img/bash-1.jpg', matched: false },
-	{ 'src': '/img/bash-2.jpg', matched: false },
-	{ 'src': '/img/bash-3.jpg', matched: false },
-	{ 'src': '/img/bash-4.jpg', matched: false },
-	{ 'src': '/img/bash-5.jpg', matched: false },
-	{ 'src': '/img/bash-6.jpg', matched: false },
+	{ 'src': '/img/pav-1.jpg', matched: false },
+	{ 'src': '/img/pav-2.jpg', matched: false },
+	{ 'src': '/img/pav-3.jpg', matched: false },
+	{ 'src': '/img/pav-4.jpg', matched: false },
+	{ 'src': '/img/pav-5.jpg', matched: false },
+	{ 'src': '/img/pav-6.jpg', matched: false },
 ]
 
 
@@ -78,7 +78,7 @@ function App() {
 
 	return (
 		<div className="App">
-			<h1>Magic Bash</h1>
+			<h1>Find Fuji</h1>
 			<button onClick={shuffleCards}>New Game</button>
 			<div className='card-grid' >
 				{cards.map(card => (
