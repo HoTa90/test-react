@@ -17,9 +17,10 @@ export default function Card({ card, handleChoice, flipped, disabled }) {
                src={`${process.env.PUBLIC_URL}${card.src}`}
             />
             <img
+               onClick={handleClick}
                className='back'
                alt='card-back'
-               src={`${process.env.PUBLIC_URL}/img/Cover.jpg`}
+               src={`${process.env.PUBLIC_URL}/img/cover.jpg`}
             />
 
          </div>
