@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&display=swap');
+
+body {
+  font-family: "Big Shoulders Inline", sans-serif;
+  margin: 0;
+  font-size: 1.5em;
+  text-align: center;
+  background-color: #333333;
+  color: #c2c7e2;
+}
