@@ -20,7 +20,7 @@ export default function Card({ card, handleChoice, flipped, disabled }) {
                onClick={handleClick}
                className="back"
                alt="card-back"
-               src={`${import.meta.env.BASE_URL}/img/Cover.jpg`}
+               src={`${import.meta.env.BASE_URL}img/Cover.jpg`}
             />
          </div>
       </div>
