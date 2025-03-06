@@ -12,17 +12,16 @@ export default function Card({ card, handleChoice, flipped, disabled }) {
       <div className={`card ${flipped ? 'flipped' : ''}`}>
          <div>
             <img
-               className='front'
-               alt='card-front'
-               src={`${process.env.PUBLIC_URL}${card.src}`}
+               className="front"
+               alt="card-front"
+               src={`${import.meta.env.BASE_URL}${card.src}`}
             />
             <img
                onClick={handleClick}
-               className='back'
-               alt='card-back'
-               src={`${process.env.PUBLIC_URL}/img/cover.jpg`}
+               className="back"
+               alt="card-back"
+               src={`${import.meta.env.BASE_URL}/img/Cover.jpg`}
             />
-
          </div>
       </div>
    );
