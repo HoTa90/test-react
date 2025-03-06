@@ -3,12 +3,12 @@ import './App.css'
 import Card from './components/Card.jsx';
 
 const cardImages = [
-	{ 'src': '/img/Bash-1.jpg', matched: false },
-	{ 'src': '/img/Bash-2.jpg', matched: false },
-	{ 'src': '/img/Bash-3.jpg', matched: false },
-	{ 'src': '/img/Bash-4.jpg', matched: false },
-	{ 'src': '/img/Bash-5.jpg', matched: false },
-	{ 'src': '/img/Bash-6.jpg', matched: false },
+	{ 'src': './img/Bash-1.jpg', matched: false },
+	{ 'src': './img/Bash-2.jpg', matched: false },
+	{ 'src': './img/Bash-3.jpg', matched: false },
+	{ 'src': './img/Bash-4.jpg', matched: false },
+	{ 'src': './img/Bash-5.jpg', matched: false },
+	{ 'src': './img/Bash-6.jpg', matched: false },
 ]
 
 
